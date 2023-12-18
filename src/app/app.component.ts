@@ -21,17 +21,18 @@ export class AppComponent implements OnInit{
           this.el.nativeElement.classList.toggle('active');
           item.classList.toggle('show');
       });
-      
+
     });
 
   }
 
 
-  // responsivemenu 
+  // responsivemenu
   responsiveMenu:any;
   // responsivemaincontent
   responsiveContent:any;
   defaultStatus=true;
+
   openNav(status:any)
   {
     if(status===this.defaultStatus)

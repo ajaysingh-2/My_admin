@@ -13,7 +13,12 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { AddUserComponent } from './pages/add-user/add-user.component';
 import { RemoveUserComponent } from './pages/remove-user/remove-user.component';
 import { CouponOfferComponent } from './pages/coupon-offer/coupon-offer.component';
-
+import { OrderTrackingComponent } from './pages/order-tracking/order-tracking.component';
+import { DialogComponent } from './pages/dialog/dialog.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatButtonModule} from "@angular/material/button";
+import {MatGridListModule} from '@angular/material/grid-list';
+import { FaqComponent } from './pages/faq/faq.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +27,11 @@ import { CouponOfferComponent } from './pages/coupon-offer/coupon-offer.componen
     UsersComponent,
     AddUserComponent,
     RemoveUserComponent,
-    CouponOfferComponent
+    CouponOfferComponent,
+    OrderTrackingComponent,
+    DialogComponent,
+    FaqComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -31,7 +40,11 @@ import { CouponOfferComponent } from './pages/coupon-offer/coupon-offer.componen
     MatSlideToggleModule,
     MatIconModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatDialogModule,
+    MatButtonModule,
+    MatGridListModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

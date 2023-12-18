@@ -6,6 +6,8 @@ import {UsersComponent} from './pages/users/users.component';
 import {AddUserComponent} from "./pages/add-user/add-user.component";
 import {RemoveUserComponent} from "./pages/remove-user/remove-user.component";
 import {CouponOfferComponent} from "./pages/coupon-offer/coupon-offer.component";
+import {OrderTrackingComponent} from "./pages/order-tracking/order-tracking.component";
+import {FaqComponent} from "./pages/faq/faq.component";
 
 
 const routes: Routes = [
@@ -14,7 +16,9 @@ const routes: Routes = [
   {path:'users',component:UsersComponent},
   {path:'add-user',component:AddUserComponent},
   {path:'remove-user',component:RemoveUserComponent},
-  {path:'coupon-offer',component:CouponOfferComponent}
+  {path:'coupon-offer',component:CouponOfferComponent},
+  {path:'order-tracking',component:OrderTrackingComponent},
+  {path:'faq',component:FaqComponent}
 ];
 
 @NgModule({

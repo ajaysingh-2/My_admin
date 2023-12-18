@@ -68,7 +68,7 @@
 
 .dropdow-container.show{
     max-height: 1000px;
-    transition: all.15 ease;
+    transition: all15 ease;
 }
 ul{
     padding: 0px;
